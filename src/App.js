@@ -8,8 +8,7 @@ function App() {
 
   return (
     <div className='bg-gray-200 h-[100vh] flex items-center justify-center'>
-      <Form />
-      {/* <form>
+      <form>
         <FormInput
           label='Your Email'
           placeholder='email@codewave.com'
@@ -27,7 +26,7 @@ function App() {
           name='password'
         />
         <button type='submit'>Submit</button>
-      </form> */}
+      </form>
     </div>
   );
 }
